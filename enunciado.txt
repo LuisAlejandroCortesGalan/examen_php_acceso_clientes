@@ -1,0 +1,30 @@
+Hay que crear una aplicación como el modelo.
+
+A partir de un formulario, se permitirà el acceso de un usuario 
+a sus datos si coinciden el email y la contraseña.
+
+En caso contrario la aplicación sigue en la pantalla del formulario
+
+Rúbrica de valoración:
+
+Aplicación totalmente funcional: 4 puntos
+Aplicación con errores leves: 2 puntos
+Aplicación con errores graves o que no funciona: 0 puntos
+
+Código claro, sin errores de concepto : 2 puntos
+Código con algunos errores de concepto  : 1 puntos
+Código muy confuso, con errores muy graves : 0 puntos
+
+Comentarios adecuadamente explicativos : 2 puntos
+Comentarios escasos o incompletos : 1 puntos
+Comentarios inexistentes o irrelevantes : 1 puntos
+
+Plus: muestra un mensaje de 
+"email o contraseña incorrectos"
+dentro del formulario
+en el caso que falle la acreditación.
+
+Solución totalmente correcta : 2 puntos
+Solución parcialmente correcta : 1 puntos
+No resuelto : 0 puntos
+

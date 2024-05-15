@@ -1,0 +1,60 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 680px;
+    margin: 5rem auto;
+}
+h1 {
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+main > div {
+    width: 45%;
+}
+
+img {
+    width: 100%;
+}
+
+form { 
+    width: 100%;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+fieldset div {
+    margin : 1rem;
+}
+
+input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+
+}
+
+p {
+    margin: 1rem;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+button {
+    padding: 5px;
+}

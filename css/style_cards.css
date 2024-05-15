@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 150px;
+    gap: 50px;
+
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid darkred;
+    border-radius: 10px;
+}
+
+.card_img img{
+    width: 300px;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -80px;
+    font-size: 42px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
