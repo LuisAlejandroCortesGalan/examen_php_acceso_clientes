@@ -32,11 +32,11 @@ for ($i = 0; $i < count($clientes); $i++) {
         $img = $clientes[$i]['foto'];
         break;
     }
-    
+
 }
 
 if ($empleadoEncontrado == false) {
-    $_SESSION['mensaje'] = "email o contraseña incorrectos";
+    $_SESSION["display"] = "flex";
     header('Location: index.php');
 }
 

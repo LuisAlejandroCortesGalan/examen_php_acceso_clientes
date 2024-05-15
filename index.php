@@ -1,6 +1,8 @@
 <?php
 session_start();
-
+if (!$_SESSION["display"]) {
+    $_SESSION["display"] = "none";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -33,12 +35,14 @@ session_start();
                     <button type="submit">Ingresar</button>
                     <button type="reset">Borrar datos</button>
                 </div>
-                <div>
-                    <p><?php $_SESSION['mensaje']?></p>
-                </div>
             </fieldset>
         </form>
     </main>
+    <div class="mensaje" style="display:<?=$_SESSION["display"]?>; background-color: red; justify-content: center; color: white; font-size: 25px;">
+        <p class="error">Acceso denegado, email o contraseña incorrectos</p>
+    </div>
 </body>
 
 </html>
+
+<?php $_SESSION["display"] = "none";?>
